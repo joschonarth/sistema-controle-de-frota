@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Frota - Cadastro Motorista</title>
+    <link rel="stylesheet" href="css/cadastroMotorista.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="">
+</head>
+<body>
+    <header>
+        <h1>Controle de Frota</h1>
+        <nav class="sidebar" id="sidebar">
+            <ul>
+                <li><a href="cadastroMotorista.html" class="active">Cadastro Motorista</a></li>
+                <li><a href="cadastroVeiculo.html">Cadastro Veículo</a></li>
+                <li><a href="relatorio.html">Controle</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+
+            <div class="theme-toggle" id="themeToggle">
+                <i id="mode_icon" class="fa-solid fa-2x"></i>
+            </div>
+
+            <div class="close-toggle" id="closeToggle">
+                <i class="fa-solid fa-2x fa-xmark"></i>
+            </div>
+        </nav>
+
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-2x fa-bars"></i>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="header-row">
+            <h2>Cadastro Motorista</h2>
+            <div class="buttons">
+                <button id="botaoPesquisar">Pesquisar</button>
+                <button id="botaoAlterar">Alterar</button>
+                <button id="botaoExcluir">Excluir</button>
+            </div>
+        </div>
+        <form id="motoristaForm">
+            <div class="form-section pessoal-info" id="personal-section">
+                <h3>Informações Pessoais</h3>
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu Nome" required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Digite seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="data-nascimento">Data de Nascimento</label>
+                        <input type="text" id="data_nascimento" placeholder="dd/mm/aaaa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" id="phone" placeholder="(16) 99999-9999" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="rg">RG</label>
+                        <input type="text" id="rg" placeholder="Digite seu RG" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" placeholder="Digite seu CPF" onblur="validarCPF(this.value)" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section cnh-info" id="cnh-section">
+                <h3>Carteira Nacional de Habilitação</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="numero-registro">N° Registro</label>
+                        <input type="text" id="numero_registro" placeholder="Digite o Número de Registro da sua CNH" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="categoria">Categoria</label>
+                        <select id="categoria" required>
+                            <option value="">Escolha sua categoria</option>
+                            <option value="A" data-calc="">A</option>
+                            <option value="B" data-calc="">B</option>
+                            <option value="C" data-calc="">C</option>
+                            <option value="D" data-calc="">D</option>
+                            <option value="E" data-calc="">E</option>
+                            <option value="AB" data-calc="">AB</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="validade">Validade</label>
+                        <input type="text" id="data_validade" placeholder="dd/mm/aaaa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="emissao">Emissão</label>
+                        <input type="text" id="data_emissao" placeholder="dd/mm/aaaa" required>
+                    </div>
+                </div>
+            </div>
+            <div class="save-button-container">
+                <button type="submit" id="salvar">Salvar</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+    <script>
+        $('#data_nascimento').mask('00/00/0000');
+        $('#data_validade').mask('00/00/0000');
+        $('#data_emissao').mask('00/00/0000');
+        $('#phone').mask('(00) 00000-0000');
+        $('#cpf').mask('000.000.000-00', {reverse: false});
+        $('#rg').mask('00.000.000-0', {reverse: false});
+    </script>
+
+    <script src="js/motorista/validarCPF.js"></script>
+    <script src="js/motorista/cadastroMotorista.js"></script>
+    <script src="js/motorista/validarFormularioMotorista.js"></script>
+    <script src="js/motorista/cadastroMotoristaDark.js"></script>
+    <script src="js/motorista/editarMotorista.js"></script>
+
+    <script>
+        document.getElementById("botaoPesquisar").addEventListener("click", function() {
+            window.location.href = "controleMotoristas.html";
+        });
+    </script>
+
+    <script>
+        document.getElementById("menuToggle").addEventListener("click", function() {
+        document.getElementById("sidebar").classList.toggle("active");
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const closeToggle = document.getElementById('closeToggle');
+            const sidebar = document.getElementById('sidebar');
+
+            closeToggle.addEventListener('click', function() {
+                sidebar.classList.remove('active');
+            });
+        });
+    </script>
+    
+</body>
+</html>
