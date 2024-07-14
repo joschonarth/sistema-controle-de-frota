@@ -193,5 +193,11 @@ body {
 @media (max-width: 575px) {
     .login-container .login-box {
         width: 340px;
+        padding: 30px;
     }
+
+    #form h1 {
+        font-size: 30px;
+    }
+    
 }
