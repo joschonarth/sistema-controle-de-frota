@@ -2,7 +2,9 @@
 
 Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcionar uma solução eficiente para gerenciar motoristas e veículos. O sistema inclui funcionalidades robustas e uma interface intuitiva para facilitar a administração da frota.
 
-![Controle de Entrada e Saída](assets/img-controle.png)
+<p align="center">
+    <img src="assets/img-controle.png" style="width: 80%" />
+</p>
 
 
 ## Funcionalidades Principais
@@ -23,10 +25,14 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 
     São geradas tabelas com as principais informações cadastradas em cada um dos itens acima, permitindo a edição e exclusão dos registros diretamente na interface do sistema.
 
-<div style="display: flex; flex-wrap: wrap;">
-    <img src="assets/img-controle-viagem.png" alt="Imagem 1" style="width: 45%; margin-right: 5%; margin-bottom: 5%;" />
+<div style="display: flex; justify-content: center;">
+    <img src="assets/cadastro-motorista-ful.png" style="width: 50%; margin-right: 10px" />
+    <img src="assets/cadastro-veiculo-full.png" style="width: 50%" />
 </div>
 
+<p align="center">
+    <img src="assets/img-controle-viagem.png" style="width: 80%; margin-top: 10px" />
+</p>
 
 ## Características do Sistema
 
@@ -40,8 +46,8 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 </div> -->
 
 <p align="center">
-    <img src="assets/img-responsivo.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
-    <img src="assets/img-responsivo-dark.png" alt="Imagem 2" style="width: 45%;" />
+    <img src="assets/img-responsivo.png" alt="Sistema Responsivo" style="width: 45%; margin-right: 5%;" />
+    <img src="assets/img-responsivo-dark.png" alt="Sistema Responsivo e com Tema Dark" style="width: 45%;" />
 </p>
 
 ## Como Utilizar
