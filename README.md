@@ -34,9 +34,9 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
 * **Responsividade:** O sistema adapta-se automaticamente a diferentes dispositivos e tamanhos de tela.
 
-<div style="display: flex; flex-direction: row; align-itens: center">
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
     <img src="assets/img-responsivo.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
-    <img src="assets/img-responsive-dark.png" alt="Imagem 2" style="width: 45%;" />
+    <img src="assets/img-responsivo-dark.png" alt="Imagem 2" style="width: 45%;" />
 </div>
 
 ## Como Utilizar
