@@ -23,10 +23,13 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 
     São geradas tabelas com as principais informações cadastradas em cada um dos itens acima, permitindo a edição e exclusão dos registros diretamente na interface do sistema.
 
-<div style="display: flex; flex-direction: row;">
-    <img src="assets/img-cad-motorista.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
-    <img src="assets/img-controle-viagem.png" alt="Imagem 2" style="width: 45%;" />
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="assets/img-cad-motorista.png" alt="Imagem 1" style="width: 45%; margin-right: 5%; margin-bottom: 5%;" />
+    <img src="assets/img-controle-viagem.png" alt="Imagem 2" style="width: 45%; margin-right: 5%; margin-bottom: 5%;" />
+    <img src="assets/img-controle-viagem.png" alt="Imagem 3" style="width: 45%; margin-right: 5%; margin-bottom: 5%;" />
+    <img src="assets/img-controle-viagem.png" alt="Imagem 4" style="width: 45%; margin-right: 5%; margin-bottom: 5%;" />
 </div>
+
 
 ## Características do Sistema
 
@@ -34,10 +37,15 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
 * **Responsividade:** O sistema adapta-se automaticamente a diferentes dispositivos e tamanhos de tela.
 
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
     <img src="assets/img-responsivo.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
     <img src="assets/img-responsivo-dark.png" alt="Imagem 2" style="width: 45%;" />
-</div>
+</div> -->
+
+<p align="center">
+    <img src="assets/img-responsivo.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
+    <img src="assets/img-responsivo-dark.png" alt="Imagem 2" style="width: 45%;" />
+</p>
 
 ## Como Utilizar
 
