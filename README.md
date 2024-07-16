@@ -1,6 +1,6 @@
 # Sistema de Controle de Frota
 
-Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcionar uma solução eficiente para gerenciar motoristas e veículos. O sistema inclui funcionalidades robustas e uma interface intuitiva para facilitar a administração da frota.
+Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcionar uma solução eficiente para gerenciar motoristas e veículos. O sistema inclui funcionalidades eficientes e uma interface intuitiva para facilitar a administração da frota.
 
 <p align="center">
     <img src="assets/img-controle.png" style="width: 100%" />
