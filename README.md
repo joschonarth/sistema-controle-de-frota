@@ -3,7 +3,7 @@
 Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcionar uma solução eficiente para gerenciar motoristas e veículos. O sistema inclui funcionalidades robustas e uma interface intuitiva para facilitar a administração da frota.
 
 <p align="center">
-    <img src="assets/img-controle.png" style="width: 80%" />
+    <img src="assets/img-controle.png" style="width: 100%" />
 </p>
 
 
@@ -26,12 +26,12 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
     São geradas tabelas com as principais informações cadastradas em cada um dos itens acima, permitindo a edição e exclusão dos registros diretamente na interface do sistema.
 
 <!-- <p align="center">
-    <img src="assets/cadastro-motorista-ful.png" style="width: 45%; margin-right: 10px" />
-    <img src="assets/cadastro-veiculo-full.png" style="width: 45%" />
+    <img src="assets/cadastro-motorista.png" style="width: 45%; margin-right: 10px" />
+    <img src="assets/cadastro-veiculo.png" style="width: 45%" />
 </p> -->
 
 <p align="center">
-    <img src="assets/img-controle-viagem.png" style="width: 80%; margin-top: 10px" />
+    <img src="assets/img-controle-viagem.png" style="width: 100%; margin-top: 10px" />
 </p>
 
 ## Características do Sistema
@@ -39,11 +39,6 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 * **Armazenamento Local:** Utiliza o `localStorage´ do navegador para armazenar os dados.
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
 * **Responsividade:** O sistema adapta-se automaticamente a diferentes dispositivos e tamanhos de tela.
-
-<!-- <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="assets/img-responsivo.png" alt="Imagem 1" style="width: 45%; margin-right: 5%;" />
-    <img src="assets/img-responsivo-dark.png" alt="Imagem 2" style="width: 45%;" />
-</div> -->
 
 <p align="center">
     <img src="assets/img-responsivo.png" alt="Sistema Responsivo" style="width: 45%; margin-right: 5%;" />
@@ -64,7 +59,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue com su
 
 ##
 
-**Nota:** Este sistema é um protótipo desenvolvido, a priori, para fins acadêmicos e pode ainda não estar adequado para uso profissional.
+**Nota:** Este sistema é um protótipo, desenvolvido, a priori, para fins acadêmicos e pode ainda não estar adequado para uso profissional.
 
 ##
 
