@@ -25,10 +25,10 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 
     São geradas tabelas com as principais informações cadastradas em cada um dos itens acima, permitindo a edição e exclusão dos registros diretamente na interface do sistema.
 
-<p align="center">
+<!-- <p align="center">
     <img src="assets/cadastro-motorista-ful.png" style="width: 45%; margin-right: 10px" />
     <img src="assets/cadastro-veiculo-full.png" style="width: 45%" />
-</p>
+</p> -->
 
 <p align="center">
     <img src="assets/img-controle-viagem.png" style="width: 80%; margin-top: 10px" />
