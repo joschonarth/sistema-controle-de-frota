@@ -11,7 +11,7 @@ function validateLogin(event) {
     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
 
-    if ((username === "Admin" && password === "12345")) {
+    if (username.trim() !== "" && password.trim() !== "") {
 
         var successMessage = document.createElement("div");
         successMessage.className = "successMessage";
