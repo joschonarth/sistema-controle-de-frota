@@ -69,7 +69,7 @@ git clone https://github.com/joschonarth/sistema-gestao-frotas.git
 
 Você também pode acessar e testar o sistema pelo seu navegador web:
 
-[Sistema de Controle de Frotas](https://controle-de-frota.vercel.app/) 🔗
+🔗 [Sistema de Controle de Frotas](https://controle-de-frota.vercel.app/) 
 
 ## Contribuições 🌟
 
