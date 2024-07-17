@@ -29,7 +29,7 @@ function validateLogin(event) {
 
         var errorMessage = document.createElement("div");
         errorMessage.className = "errorMessage";
-        errorMessage.innerHTML = "Usuário ou senha incorretos. Tente novamente.";
+        errorMessage.innerHTML = "Os campos usuário e senha são obrigatórios.";
         
         var form = document.getElementById("loginForm");
         form.appendChild(errorMessage);
