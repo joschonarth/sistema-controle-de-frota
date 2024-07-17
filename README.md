@@ -6,6 +6,18 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
     <img src="assets/img-controle.png" style="width: 100%" />
 </p>
 
+## Tecnologias Utilizadas
+
+Este projeto utiliza as seguintes tecnologias:
+
+- **HTML:** Utilizado para estruturar as páginas web.
+- **CSS:** Responsável pelo estilo e aparência visual do sistema.
+- **Bootstrap:** Framework de CSS utilizado para facilitar o desenvolvimento responsivo e a estilização.
+- **JavaScript:** Utilizado para a lógica e interatividade do sistema.
+
+<br>
+
+[![Tecnologias Utilizadas](https://skillicons.dev/icons?i=html,css,bootstrap,javascript&theme=light)](https://skillicons.dev)
 
 ## Funcionalidades Principais
 
