@@ -6,7 +6,7 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
     <img src="assets/img-controle.png" style="width: 100%" />
 </p>
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🛠️
 
 Este projeto utiliza as seguintes tecnologias:
 
@@ -19,7 +19,7 @@ Este projeto utiliza as seguintes tecnologias:
 
 [![Tecnologias Utilizadas](https://skillicons.dev/icons?i=html,css,bootstrap,javascript&theme=light)](https://skillicons.dev)
 
-## Funcionalidades Principais
+## Funcionalidades Principais 🚀
 
 * **Cadastro de Motorista**
 
@@ -46,7 +46,7 @@ Este projeto utiliza as seguintes tecnologias:
     <img src="assets/img-controle-viagem.png" style="width: 100%; margin-top: 10px" />
 </p>
 
-## Características do Sistema
+## Características do Sistema 📝
 
 * **Armazenamento Local:** Utiliza o `localStorage´ do navegador para armazenar os dados.
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
@@ -57,7 +57,7 @@ Este projeto utiliza as seguintes tecnologias:
     <img src="assets/img-responsivo-dark.png" alt="Sistema Responsivo e com Tema Dark" style="width: 45%;" />
 </p>
 
-## Como Utilizar
+## Como Utilizar 🚀
 
 Para executar o sistema localmente, clone este repositório e abra-o em seu navegador:
 
@@ -65,7 +65,7 @@ Para executar o sistema localmente, clone este repositório e abra-o em seu nave
 git clone https://github.com/joschonarth/sistema-gestao-frotas.git
 ```
 
-## Contribuições
+## Contribuições 🌟
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue com sugestões ou enviar um pull request com melhorias.
 
@@ -75,7 +75,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue com su
 
 ##
 
-## Contato:
+## Contato 📞
 
 <div>
     <a href="https://www.linkedin.com/in/joao-otavio-schonarth/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
