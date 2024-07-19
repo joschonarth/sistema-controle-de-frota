@@ -12,7 +12,7 @@ Este projeto utiliza as seguintes tecnologias:
 
 - **HTML:** Utilizado para estruturar as páginas web.
 - **CSS:** Responsável pelo estilo e aparência visual do sistema.
-- **Bootstrap:** Framework de CSS utilizado para facilitar o desenvolvimento responsivo e a estilização.
+- **Bootstrap:** Framework utilizado para facilitar o desenvolvimento responsivo e a estilização.
 - **JavaScript:** Utilizado para a lógica e interatividade do sistema.
 
 <br>
