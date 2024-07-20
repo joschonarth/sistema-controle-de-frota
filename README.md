@@ -67,7 +67,7 @@ Para executar o sistema localmente, clone este repositório e abra-o em seu nave
 git clone https://github.com/joschonarth/sistema-gestao-frotas.git
 ```
 
-## Acesse o Sistema 🟢
+## Acesse o Sistema 🖥️
 
 Você também pode acessar e testar o sistema pelo seu navegador web:
 
