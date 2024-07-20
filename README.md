@@ -3,7 +3,9 @@
 Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcionar uma solução eficiente para gerenciar motoristas e veículos. O sistema inclui funcionalidades eficientes e uma interface intuitiva para facilitar a administração da frota.
 
 <p align="center">
+    <a href="https://controle-de-frota.vercel.app/" target="_blank">
     <img src="assets/img-controle.png" style="width: 100%" />
+    </a>
 </p>
 
 ## Tecnologias Utilizadas 🛠️
