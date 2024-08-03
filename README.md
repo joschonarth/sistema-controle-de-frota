@@ -12,14 +12,14 @@ Este projeto de Sistema de Controle de Frotas foi desenvolvido visando proporcio
 
 Este projeto utiliza as seguintes tecnologias:
 
+- **JavaScript:** O sistema baseia-se majoritariamente em JavaScript, utilizado para toda a lógica e interatividade.
 - **HTML:** Utilizado para estruturar as páginas web.
 - **CSS:** Responsável pelo estilo e aparência visual do sistema.
 - **Bootstrap:** Framework utilizado para facilitar o desenvolvimento responsivo e a estilização.
-- **JavaScript:** Utilizado para a lógica e interatividade do sistema.
 
 <br>
 
-[![Tecnologias Utilizadas](https://skillicons.dev/icons?i=html,css,bootstrap,javascript&theme=light)](https://skillicons.dev)
+[![Tecnologias Utilizadas](https://skillicons.dev/icons?i=javascript,html,css,bootstrap&theme=light)](https://skillicons.dev)
 
 ## Funcionalidades Principais 🚀
 
@@ -53,6 +53,7 @@ Este projeto utiliza as seguintes tecnologias:
 * **Armazenamento Local:** Utiliza o `localStorage´ do navegador para armazenar os dados.
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
 * **Responsividade:** O sistema adapta-se automaticamente a diferentes dispositivos e tamanhos de tela.
+* **Gerar PDF:**O sistema gera automaticamente um arquivo PDF dos relatórios de entrada e saída recém cadastrados.
 
 <p align="center">
     <img src="assets/img-responsivo.png" alt="Sistema Responsivo" style="width: 45%; margin-right: 5%;" />
@@ -79,7 +80,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue com su
 
 ##
 
-**Nota:** Este sistema é um protótipo, desenvolvido, a priori, para fins acadêmicos e pode ainda não estar adequado para uso profissional.
+**Nota:** Este sistema é um protótipo, desenvolvido para fins educacionais.
 
 ##
 
