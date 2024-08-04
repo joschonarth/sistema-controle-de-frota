@@ -53,7 +53,8 @@ Este projeto utiliza as seguintes tecnologias:
 * **Armazenamento Local:** Utiliza o `localStorage´ do navegador para armazenar os dados.
 * **Tema Escuro:** Possui suporte para tema escuro, proporcionando uma experiência de agradável ao usuário.
 * **Responsividade:** O sistema adapta-se automaticamente a diferentes dispositivos e tamanhos de tela.
-* **Gerar PDF:**O sistema gera automaticamente um arquivo PDF dos relatórios de entrada e saída recém cadastrados.
+* **Gerar PDF:** O sistema gera automaticamente um arquivo PDF dos relatórios de entrada e saída recém cadastrados.
+* **Validação de Campos:** Inclui validação de campos para garantir a precisão dos dados inseridos, como CPF e datas, evitando erros e melhorando a integridade das informações.
 
 <p align="center">
     <img src="assets/img-responsivo.png" alt="Sistema Responsivo" style="width: 45%; margin-right: 5%;" />
