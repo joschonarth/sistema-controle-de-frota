@@ -20,7 +20,6 @@ Este projeto utiliza as seguintes tecnologias:
 
 - [<img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="25" align="center">](https://nodejs.org/) **Bootstrap:** Framework utilizado para facilitar o desenvolvimento responsivo e a estilização.
 
-<br>
 
 ## ⚙️ Funcionalidades Principais
 
@@ -31,11 +30,6 @@ Este projeto utiliza as seguintes tecnologias:
 * **📈 Relatórios de Entrada e Saída**: Gera relatórios detalhados sobre a entrada e saída dos motoristas, indicando horários, datas, e veículos utilizados.
 
 * **⚙️ Controles**: São geradas tabelas com as principais informações cadastradas em cada um dos itens acima, permitindo a edição e exclusão dos registros diretamente na interface do sistema.
-
-<!-- <p align="center">
-    <img src="assets/cadastro-motorista.png" style="width: 45%; margin-right: 10px" />
-    <img src="assets/cadastro-veiculo.png" style="width: 45%" />
-</p> -->
 
 <p align="center">
     <img src="assets/img-controle-viagem.png" style="width: 100%; margin-top: 10px" />
